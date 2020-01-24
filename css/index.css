@@ -169,7 +169,6 @@ p {
   flex-direction: column;
   background-color: #F6F6F6;
   border: 1px solid #F1F1F1;
-  width: 90%;
   margin: auto;
   /*h1*/
   /*nav*/
@@ -187,7 +186,7 @@ p {
 @media (max-width:500px) {
   .spaceNav h1 {
     margin-bottom: 10px;
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 }
 .spaceNav nav {
@@ -263,6 +262,7 @@ footer {
 @media (max-width:500px) {
   .home .space-images .blast {
     width: 100%;
+    padding: 1%;
   }
 }
 .home .visit-planets {
@@ -286,6 +286,8 @@ footer {
     flex-direction: column-reverse;
     align-content: center;
     padding: 15px 20px;
+    margin-top: 0;
+    border-top: none;
   }
 }
 .home .walk .walk-text {
