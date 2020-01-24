@@ -1,1 +1,19 @@
 // Mixins Here
+.displayFlx(@mainAxis, @crossAxis){
+	display:flex;
+	justify-content:@mainAxis;
+	align-items:@crossAxis;
+}
+
+/*parametric mixins*/
+.space-btn(@background-color,@width,@font-color){
+    display:block;
+    background-color:@background-color;
+    cursor: pointer;
+    height:40px;
+    width: @width;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@font-color;
+    
+}

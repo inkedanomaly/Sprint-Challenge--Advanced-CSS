@@ -1,1 +1,36 @@
 // Navigation code here
+.spaceNav {
+    margin:20px 0;
+    padding:10px 0;
+    .displayFlx(center, space-between);
+    flex-direction: column;
+  
+    @media @phone{
+        justify-content:center;
+    }
+    
+        h1{
+            margin:auto;
+            font-size:2rem;
+    
+            @media @phone{
+                margin-bottom: 20px;
+            }
+        } /*h1*/
+    
+        nav{
+            padding-top: 2%;
+			.displayFlx(center, space-between);
+			
+            @media @phone {
+                flex-direction: column;
+            }
+
+            a{
+                color: black;
+                font-size:1.7rem;
+                text-decoration: none;
+            } /*a*/
+           
+        } /*nav*/
+} /*spacenav*/

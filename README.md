@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A fully responsive website is designed using responsive units such as rems, percentages and is able to be viewed on a smaller sized screen without a scroll bar. Both an adaptive website and a fully responsive website change appearance based on the browser environment they are viewed on usually the width of the browser. A responsive website responds to the size of the browser at any point.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is designed from a mobile standpoint initially. The styling is created for a mobile sized device such as 500px. Then the design is changed to adapt to a larger screen size from there. The syntax is @media (min-width) instead of the desktop first method where the syntax is @media (max-width)
+The desktop first design is initially designed for a larger screen size and then changed accordingly using the @media max-width syntax for any number of smaller screen sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The font size of 62.5% is placed in the html tag to provide a "root" or base number for the font size. The font size can then be calculated based off of that where 1 rem is equal to 10 pixels. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a program that you use to write a lot less CSS code. The tool you use to preprocess your CSS then takes your code and extrapalates it into your CSS file. Preprocessing is sort of like the superpowers of styling. You have more powerful styling while your code can be written in a much simpler and cleaner way. You can also make changes to existing code in a much easier way by using functions. Preprocessing allows you to write DRY code, any area where you find yourself reusing the same lines of code, you can create a mixin and call it into any of your styles be it font color or size or centering sections for example. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is importing. It's so much cleaner and efficient. Scrolling through codes and navigating through sections can be very time consuming even with the tiny baby code we've been writing.
+I had a little bit of trouble using escaping. Besides that just getting used to the grouping and using variables is taking some getting used to. It's kind of confusing to keep everything straight, I think the import files with variables and mixins is going to be very useful. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
