@@ -5,20 +5,21 @@
     flex-direction: column;
     background-color: @wild-sand;
     border:1px solid @sea-shell; 
+    width:90%;
+    margin:auto;
 
+        @media @phone{
+            width:100%;
+        }
 
-    
-    @media @phone{
-        justify-content:center;
-    }
-    
         h1{
             margin:auto;
             font-size:4rem;
             font:@river-bend;
     
             @media @phone{
-                margin-bottom: 20px;
+                margin-bottom: 10px;
+                font-size:3.5rem;
             }
         } /*h1*/
          
@@ -30,7 +31,9 @@
                
 			
             @media @phone {
-                flex-direction: column;
+               width:80%;
+
+                
             }
 
             a{
