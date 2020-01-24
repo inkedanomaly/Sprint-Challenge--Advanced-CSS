@@ -163,7 +163,7 @@ p {
 }
 button {
   display: block;
-  background-color: #454A59;
+  background-color: #22283A;
   cursor: pointer;
   height: 40px;
   width: 120px;
@@ -184,15 +184,16 @@ button {
 }
 button:hover {
   background-color: #F6F6F6;
-  color: #454A59;
+  color: #22283A;
 }
 .spaceNav {
-  margin: 20px 0;
   padding: 10px 0;
   display: flex;
   justify-content: center;
-  align-items: space-between;
+  align-items: space-evenly;
   flex-direction: column;
+  background-color: #F6F6F6;
+  border: 1px solid #F1F1F1;
   /*h1*/
   /*nav*/
 }
@@ -203,7 +204,8 @@ button:hover {
 }
 .spaceNav h1 {
   margin: auto;
-  font-size: 2rem;
+  font-size: 4rem;
+  font: #454A59;
 }
 @media (max-width-500px) {
   .spaceNav h1 {
@@ -213,8 +215,10 @@ button:hover {
 .spaceNav nav {
   padding-top: 2%;
   display: flex;
-  justify-content: center;
-  align-items: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  margin: auto;
   /*a*/
 }
 @media (max-width-500px) {
@@ -224,8 +228,9 @@ button:hover {
 }
 .spaceNav nav a {
   color: black;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-decoration: none;
+  font: #454A59;
 }
 /*spacenav*/
 footer {

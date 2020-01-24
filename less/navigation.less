@@ -1,26 +1,33 @@
 // Navigation code here
 .spaceNav {
-    margin:20px 0;
     padding:10px 0;
-    .displayFlx(center, space-between);
+    .displayFlx(center, space-evenly);
     flex-direction: column;
-  
+    background-color: @wild-sand;
+    border:1px solid @sea-shell; 
+
+
+    
     @media @phone{
         justify-content:center;
     }
     
         h1{
             margin:auto;
-            font-size:2rem;
+            font-size:4rem;
+            font:@river-bend;
     
             @media @phone{
                 margin-bottom: 20px;
             }
         } /*h1*/
-    
+         
         nav{
             padding-top: 2%;
-			.displayFlx(center, space-between);
+            .displayFlx(space-evenly, center);
+            width:40%;
+            margin:auto;   
+               
 			
             @media @phone {
                 flex-direction: column;
@@ -28,8 +35,9 @@
 
             a{
                 color: black;
-                font-size:1.7rem;
+                font-size:1.6rem;
                 text-decoration: none;
+                font:@river-bend;
             } /*a*/
            
         } /*nav*/
